@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.lightGreen,
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text("Calculadora IMC")),
         body: PantallaIMCStateful(),
       ),
       debugShowCheckedModeBanner: false,
