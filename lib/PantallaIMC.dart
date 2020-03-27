@@ -95,9 +95,9 @@ class _PantallaIMCState extends State<PantallaIMCStateful> {
                       if(_imc < 18.5){
                         _IMCModelo = IMCModelo(imc: _imc, esNormal:  false, resultado: "Bajo Peso");
                       } else if(_imc < 25 && _imc >= 18.5){
-                        _IMCModelo = IMCModelo(imc: _imc, esNormal:  true, resultado: "Bajo Peso");
+                        _IMCModelo = IMCModelo(imc: _imc, esNormal:  true, resultado: "Peso Normal");
                       } else if(_imc >= 25){
-                        _IMCModelo = IMCModelo(imc: _imc, esNormal:  false, resultado: "Bajo Peso");
+                        _IMCModelo = IMCModelo(imc: _imc, esNormal:  false, resultado: "Sobre Peso");
                       }
 
                       Navigator.push(context, MaterialPageRoute(
